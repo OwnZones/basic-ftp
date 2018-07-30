@@ -26,6 +26,7 @@ jobs:
       - run: npm run test
 
       - deploy:
+          name: Publish to NPM
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               node_modules/publish/bin/publish.js

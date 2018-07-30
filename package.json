@@ -12,7 +12,6 @@
     "type": "git",
     "url": "https://github.com/OwnZones/basic-ftp.git"
   },
-  "author": "Patrick Juchli <patrickjuchli@gmail.com>",
   "license": "MIT",
   "keywords": [
     "ftp",
